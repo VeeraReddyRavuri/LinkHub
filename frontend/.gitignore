@@ -1,0 +1,32 @@
+# Node deps
+node_modules/
+**/node_modules/
+
+# env files
+.env
+frontend/.env
+backend/.env
+
+# build outputs
+frontend/build/
+backend/dist/
+dist/
+build/
+
+# OS / editor stuff
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+*.log
+
+# optional: lockfiles if you don't want them
+package-lock.json
+yarn.lock
